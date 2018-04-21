@@ -27,3 +27,11 @@ Intermediate?
 | Ambush path/pit    | V-lasers, Telept |
 | Counter cloak      | Zapper           |
 
+
+#### Wishlist
+
+- When the enemy trips the mine, any cloak in the vicinity is rendered useless (too much like EMP?)
+- Only permit friendlies to detect mine locations. Make mines do friendly-fire damage.
+- Detonate adjacent mines like a domino effect
+- Splash damage
+

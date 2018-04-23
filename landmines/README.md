@@ -26,6 +26,7 @@ Intermediate?
 | Escape "oil slick" | Cloak            |
 | Ambush path/pit    | V-lasers, Telept |
 | Counter cloak      | Zapper           |
+| Scout              | Cloak, Thrusters |
 
 
 #### Wishlist

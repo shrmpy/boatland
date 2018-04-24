@@ -18,9 +18,16 @@ do_scout = function () {
         do_evade();
     } else {
         targ = do_search();
-        do_walk(targ);
-        if (canLayMine()) {
-            layMine();
+        if (!exists(targ)){
+            if (canLayMine()) {
+                layMine();
+            }
+            do_walkupdown();
+//        if (!areSensorsActivated()){
+//                activateSensors();
+//        }
+        } else {
+            do_walk(targ);
         }
     }
 };
@@ -58,12 +65,6 @@ do_prioritizeEvade(){
         }
 };
 do_walk = function(ent){
-    if (!exists(ent)){
-//        if (!areSensorsActivated()){
-//                activateSensors();
-//        }
-        return;
-    }
     tx = getX(ent);
     ty = getY(ent);
     if (canMoveTo(tx, ty)){

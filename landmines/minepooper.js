@@ -1,5 +1,5 @@
 init = function () {
-    safex = 11;
+    safex = 10;
     safey = 6;
     array1 = [];
     array1[0] = 0;
